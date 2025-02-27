@@ -7,7 +7,7 @@ tags: ["troublshooting", "nodes"]
 ---
 You can use the `kubectl` command line tool to identify and troubleshoot issues with your Kubernetes Pods. The following are some of the more useful commands:
 
-- `kubectl get pods` - returns a list and the status of all available Pods.
+- `kubectl get pods kubectl get pods --namespace` - returns a list and the status of all available Pods. `--namespace` is optional and returns the current namespaces in a cluster.
 
 - `kubectl logs` - retrieves the logs for the Pod.
 
